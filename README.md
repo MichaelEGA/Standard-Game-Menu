@@ -29,7 +29,8 @@ In Game Menu
 ![IngameMenu](https://user-images.githubusercontent.com/67586167/219983444-c154740e-0296-4776-9c41-ba5f1a445361.jpg)
 
 How to use
-- Drag the menu you wish to use (either main menu or in game) into an empty scene with a camera
+- Drop the files into you assets folder
+- Drag the menu you wish to use into an empty scene with a camera (you can find them in Resources/Menu/Menus)
 - Press 'play', the menu should load its default layout
 - Add content by editing the relevant Json menu file in Resources/MenuFiles
 - You can add new functions to your menu by writing a new void function in 'MainMenuFunctions.cs' or 'InGameMenuFunctions.cs' you then need to add the function to the function dictionary at the top of script 
