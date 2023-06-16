@@ -1,0 +1,476 @@
+{
+    "menuData": [
+        {
+		"ParentMenu": "none",
+            "Name": "Start Game",
+            "Description": "none",
+            "Function": "ActivateSubMenu",
+		"Type": "LeftBarButton_Play",
+		"Variable": "Start Game"
+        },   
+	  {
+		"ParentMenu": "none",
+            "Name": "Controls",
+            "Description": "none",
+            "Function": "ActivateSubMenu",
+		"Type": "LeftBarButton_Controls",
+		"Variable": "Controls"
+        },  
+	  {
+		"ParentMenu": "none",
+            "Name": "Settings",
+            "Description": "none",
+            "Function": "ActivateSubMenu",
+		"Type": "LeftBarButton_Settings",
+		"Variable": "Settings"
+        },
+	  {
+		"ParentMenu": "none",
+            "Name": "Credits",
+            "Description": "none",
+            "Function": "ActivateSubMenu",
+		"Type": "LeftBarButton_Credits",
+		"Variable": "Credits"
+        },
+	  {
+		"ParentMenu": "none",
+            "Name": "Quit",
+            "Description": "none",
+            "Function": "ActivateSubMenu",
+		"Type": "LeftBarButton_Quit",
+		"Variable": "Quit"
+        },          
+	  {
+		"ParentMenu": "Start Game",
+            "Name": "Explore",
+            "Description": "Start a new game",
+            "Function": "StartExplore",
+		"Type": "ContentButton01",
+		"Variable": "none"
+        },
+        {
+		"ParentMenu": "Controls",
+            "Name": "Invert Vertical Axis - View",
+            "Description": "Inverts the up/down axis on player view",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton01",
+		"Variable": "Invert Vertical Axis - View"
+        },
+	  {
+		"ParentMenu": "Invert Vertical Axis - View",
+            "Name": "Back to Controls",
+            "Description": "Returns to control sub menu",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton02",
+		"Variable": "Controls"
+        },
+        {
+		"ParentMenu": "Invert Vertical Axis - View",
+            "Name": "True",
+            "Description": "Inverts the up/down axis on player view",
+            "Function": "InvertVertical",
+		"Type": "ContentButton02",
+		"Variable": "true"
+        },
+        {
+		"ParentMenu": "Invert Vertical Axis - View",
+            "Name": "False",
+            "Description": "Inverts the up/down axis on player view",
+            "Function": "InvertVertical",
+		"Type": "ContentButton02",
+		"Variable": "false"
+        },
+        {
+		"ParentMenu": "Controls",
+            "Name": "Invert Horizontal Axis - View",
+            "Description": "Inverts the right/left axis on player view",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton01",
+		"Variable": "Invert Horizontal Axis - View"
+        },
+	  {
+		"ParentMenu": "Invert Horizontal Axis - View",
+            "Name": "Back to Controls",
+            "Description": "Returns to control sub menu",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton02",
+		"Variable": "Controls"
+        },
+        {
+		"ParentMenu": "Invert Horizontal Axis - View",
+            "Name": "True",
+            "Description": "Inverts the right/left axis on player view",
+            "Function": "InvertHorizontalOnPlayer",
+		"Type": "ContentButton02",
+		"Variable": "true"
+        },
+        {
+		"ParentMenu": "Invert Horizontal Axis - View",
+            "Name": "False",
+            "Description": "Inverts the right/left axis on player view",
+            "Function": "InvertHorizontalOnPlayer",
+		"Type": "ContentButton02",
+		"Variable": "false"
+        },
+	  {
+		"ParentMenu": "Controls",
+            "Name": "View Controls",
+            "Description": "View Player Controls",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton01",
+		"Variable": "View Controls"
+        },
+	  {
+		"ParentMenu": "View Controls",
+            "Name": "Back to Controls",
+            "Description": "Returns to control sub menu",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton02",
+		"Variable": "Controls"
+        },
+	  {
+		"ParentMenu": "View Controls",
+            "Name": "Move Forward - W",
+            "Description": "View Player Controls",
+            "Function": "none",
+		"Type": "ContentButton02",
+		"Variable": "none"
+        },
+	  {
+		"ParentMenu": "View Controls",
+            "Name": "Backpedal - S",
+            "Description": "View Player Controls",
+            "Function": "none",
+		"Type": "ContentButton02",
+		"Variable": "none"
+        },
+	  {
+		"ParentMenu": "View Controls",
+            "Name": "Strafe Left - A",
+            "Description": "View Player Controls",
+            "Function": "none",
+		"Type": "ContentButton02",
+		"Variable": "none"
+        },
+	  {
+		"ParentMenu": "View Controls",
+            "Name": "Strafe Right - D",
+            "Description": "View Player Controls",
+            "Function": "none",
+		"Type": "ContentButton02",
+		"Variable": "none"
+        },
+	  {
+		"ParentMenu": "Settings",
+            "Name": "Change Resolution",
+            "Description": "Change the game's resolution",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton01",
+		"Variable": "Change Resolution"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "Back to Video",
+            "Description": "Returns to video sub menu",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton02",
+		"Variable": "Settings"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "Detect Screen Resolution",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "Detect Screen Resolution"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "640 x 480 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "640 x 480 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "640 x 360 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "640 x 360 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "640 x 400 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "640 x 400 (16:10)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "800 x 600 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "800 x 600 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "848 x 450 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "848 x 450 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "960 x 600 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "960 x 600 (16:10)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1024 x 768 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1024 x 768 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1024 x 576 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1024 x 576 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1024 x 640 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1024 x 640 (16:10)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1220 x 915 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1220 x 915 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1220 x 720 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1220 x 720 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1280 x 800 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1280 x 800 (16:10)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1680 × 1260 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1680 × 1260 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1680 × 945 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1680 × 945 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1680 × 1050 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1680 × 1050 (16:10)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1920 x 1440 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1920 x 1440 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1920 x 1080 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1920 x 1080 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "1920 x 1200 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "1920 x 1200 (16:10)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "2560 x 1920 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "2560 x 1920 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "2560 x 1440 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "2560 x 1440 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "2560 x 1600 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "2560 x 1600 (16:10)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "3840 x 2880 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "3840 x 2880 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "3840 x 2160 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "3840 x 2160 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "3840 x 2400 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "3840 x 2400 (16:10)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "7680 x 5760 (4:3)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "7680 x 5760 (4:3)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "7680 x 4320 (16:9)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "7680 x 4320 (16:9)"
+        },
+	  {
+		"ParentMenu": "Change Resolution",
+            "Name": "7680 x 4800 (16:10)",
+            "Description": "Change the game's resolution",
+            "Function": "ChangeResolution",
+		"Type": "ContentButton02",
+		"Variable": "7680 x 4800 (16:10)"
+        },
+	  {
+		"ParentMenu": "Settings",
+            "Name": "Window Mode",
+            "Description": "Play fullscreen or windowed",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton01",
+		"Variable": "Window Mode"
+        },
+	  {
+		"ParentMenu": "Window Mode",
+            "Name": "Back to Video",
+            "Description": "Returns to video sub menu",
+            "Function": "ActivateSubMenu",
+		"Type": "ContentButton02",
+		"Variable": "Settings"
+        },
+	  {
+		"ParentMenu": "Window Mode",
+            "Name": "Windowed",
+            "Description": "Play in a window",
+            "Function": "SetWindowMode",
+		"Type": "ContentButton02",
+		"Variable": "Windowed"
+        },
+	  {
+		"ParentMenu": "Window Mode",
+            "Name": "Maximized Window [Mac Only]",
+            "Description": "Play in a maximized window",
+            "Function": "SetWindowMode",
+		"Type": "ContentButton02",
+		"Variable": "MaximizedWindow"
+        },
+	  {
+		"ParentMenu": "Window Mode",
+            "Name": "Full Screen",
+            "Description": "Play in full screen",
+            "Function": "SetWindowMode",
+		"Type": "ContentButton02",
+		"Variable": "FullScreenWindow"
+        },
+	  {
+		"ParentMenu": "Window Mode",
+            "Name": "Exclusive Full Screen [Windows Only]",
+            "Description": "Play in exclusive full screen",
+            "Function": "SetWindowMode",
+		"Type": "ContentButton02",
+		"Variable": "ExclusiveFullScreen"
+        },
+	  {
+		"ParentMenu": "Credits",
+            "Name": "MichaelEGA",
+            "Description": "Menu Creator",
+            "Function": "none",
+		"Type": "ContentButton03",
+		"Variable": "none"
+        },
+	  {
+		"ParentMenu": "Credits",
+            "Name": "Kenny.nl",
+            "Description": "Menu Icons",
+            "Function": "none",
+		"Type": "ContentButton03",
+		"Variable": "none"
+        },
+	  {
+		"ParentMenu": "Quit",
+            "Name": "Quit to Desktop",
+            "Description": "Closes the game and returns you to the Desktop",
+            "Function": "QuitToDesktop",
+		"Type": "ContentButton01",
+		"Variable": "none"
+        }
+    ]
+}
